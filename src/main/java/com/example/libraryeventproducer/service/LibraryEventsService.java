@@ -87,7 +87,7 @@ public class LibraryEventsService {
 						if (exception != null) {
 							handleError(key, value, exception);
 						} else {
-							log.debug("Record processed: {} "+key);
+							log.debug("*****Record processed: {} "+key);
 							handleSuccess(key, value, metadata);
 						}
 					}
